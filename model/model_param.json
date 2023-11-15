@@ -1,0 +1,187 @@
+{
+    "vgg_cifar100_random_rate0":{
+        "decription":"vgg model with 0.0 fraction of corrupted labels",
+
+        "data_params":{
+            "batch_size":128,
+            "horizontal_flip":true,
+            "rotation_range":15,
+            "height_shift_range":0.1,
+            "width_shift_range":0.1,
+            "random_rate":0.0,
+            "save_random_data_dir":"/home/workthu/zy/model/upload_for_test/c0",
+            "load_random_data_dir":null
+        },
+
+        "model_params":{
+            "save_dir":"/home/workthu/zy/model/upload_for_test/c0",
+            "initial_epoch":0,
+            "dropout_list":[0.0, 0.0, 0.0],
+            "conv_bn":false,
+            "momentum":0.9,
+            "nesterov":true,
+            "weight_decay":1e-4,
+            "epoch":300,
+            "input_shape": [32, 32, 3]
+        },
+        
+        "results_params":{
+            "result_save_dir":"/home/workthu/zy/model/upload_for_test/c0"
+        }
+    },
+
+    "vgg_cifar100_random_rate2":{
+        "decription":"vgg model with 0.2 fraction of corrupted labels",
+
+        "data_params":{
+            "batch_size":128,
+            "horizontal_flip":true,
+            "rotation_range":15,
+            "height_shift_range":0.1,
+            "width_shift_range":0.1,
+            "random_rate":0.2,
+            "save_random_data_dir":"/home/workthu/zy/model/upload_for_test/c1",
+            "load_random_data_dir":null
+        },
+
+        "model_params":{
+            "save_dir":"/home/workthu/zy/model/upload_for_test/c1",
+            "initial_epoch":0,
+            "dropout_list":[0.0, 0.0, 0.0],
+            "conv_bn":false,
+            "momentum":0.9,
+            "nesterov":true,
+            "weight_decay":1e-4,
+            "epoch":300,
+            "input_shape": [32, 32, 3]
+        },
+        
+        "results_params":{
+            "result_save_dir":"/home/workthu/zy/model/upload_for_test/c1"
+        }
+    },
+
+    "vgg_cifar100_random_rate4":{
+        "decription":"vgg model with 0.4 fraction of corrupted labels",
+
+        "data_params":{
+            "batch_size":128,
+            "horizontal_flip":true,
+            "rotation_range":15,
+            "height_shift_range":0.1,
+            "width_shift_range":0.1,
+            "random_rate":0.4,
+            "save_random_data_dir":"/home/workthu/zy/model/upload_for_test/c2",
+            "load_random_data_dir":null
+        },
+
+        "model_params":{
+            "save_dir":"/home/workthu/zy/model/upload_for_test/c2",
+            "initial_epoch":0,
+            "dropout_list":[0.0, 0.0, 0.0],
+            "conv_bn":false,
+            "momentum":0.9,
+            "nesterov":true,
+            "weight_decay":1e-4,
+            "epoch":300,
+            "input_shape": [32, 32, 3]
+        },
+        
+        "results_params":{
+            "result_save_dir":"/home/workthu/zy/model/upload_for_test/c2"
+        }
+    },
+
+    "vgg_cifar100_random_rate6":{
+        "decription":"vgg model with 0.6 fraction of corrupted labels",
+
+        "data_params":{
+            "batch_size":128,
+            "horizontal_flip":true,
+            "rotation_range":15,
+            "height_shift_range":0.1,
+            "width_shift_range":0.1,
+            "random_rate":0.6,
+            "save_random_data_dir":"/home/workthu/zy/model/upload_for_test/c3",
+            "load_random_data_dir":null
+        },
+
+        "model_params":{
+            "save_dir":"/home/workthu/zy/model/upload_for_test/c3",
+            "initial_epoch":0,
+            "dropout_list":[0.0, 0.0, 0.0],
+            "conv_bn":false,
+            "momentum":0.9,
+            "nesterov":true,
+            "weight_decay":1e-4,
+            "epoch":300,
+            "input_shape": [32, 32, 3]
+        },
+        
+        "results_params":{
+            "result_save_dir":"/home/workthu/zy/model/upload_for_test/c3"
+        }
+    },
+
+    "vgg_cifar100_random_rate8":{
+        "decription":"vgg model with 0.8 fraction of corrupted labels",
+
+        "data_params":{
+            "batch_size":128,
+            "horizontal_flip":true,
+            "rotation_range":15,
+            "height_shift_range":0.1,
+            "width_shift_range":0.1,
+            "random_rate":0.8,
+            "save_random_data_dir":"/home/workthu/zy/model/upload_for_test/c4",
+            "load_random_data_dir":null
+        },
+
+        "model_params":{
+            "save_dir":"/home/workthu/zy/model/upload_for_test/c4",
+            "initial_epoch":0,
+            "dropout_list":[0.0, 0.0, 0.0],
+            "conv_bn":false,
+            "momentum":0.9,
+            "nesterov":true,
+            "weight_decay":1e-4,
+            "epoch":300,
+            "input_shape": [32, 32, 3]
+        },
+        
+        "results_params":{
+            "result_save_dir":"/home/workthu/zy/model/upload_for_test/c4"
+        }
+    },
+
+    "vgg_cifar100_random_rate10":{
+        "decription":"vgg model with 1.0 fraction of corrupted labels",
+
+        "data_params":{
+            "batch_size":128,
+            "horizontal_flip":true,
+            "rotation_range":15,
+            "height_shift_range":0.1,
+            "width_shift_range":0.1,
+            "random_rate":1.0,
+            "save_random_data_dir":"/home/workthu/zy/model/upload_for_test/c5",
+            "load_random_data_dir":null
+        },
+
+        "model_params":{
+            "save_dir":"/home/workthu/zy/model/upload_for_test/c5",
+            "initial_epoch":0,
+            "dropout_list":[0.0, 0.0, 0.0],
+            "conv_bn":false,
+            "momentum":0.9,
+            "nesterov":true,
+            "weight_decay":1e-4,
+            "epoch":300,
+            "input_shape": [32, 32, 3]
+        },
+        
+        "results_params":{
+            "result_save_dir":"/home/workthu/zy/model/upload_for_test/c5"
+        }
+    }
+}
